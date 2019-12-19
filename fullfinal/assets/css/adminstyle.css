@@ -1,0 +1,43 @@
+.padtop{
+	padding-top: 50px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.constspec{
+	position: relative;
+}
+.add_spec{
+	padding: 0px 0px;
+    position: absolute;
+    right: -32px;
+    font-size: 23px;
+    top: 26px;
+    background: #3c763d;
+    width: 5%;
+    color: #f3eded;
+    text-align: center;
+}
+.remve_spec{
+  padding: 0px 0px;
+    position: absolute;
+    right: -32px;
+    font-size: 23px;
+    top: 1px;
+    background: red;
+    width: 5%;
+    color: #f3eded;
+    text-align: center;
+}
